@@ -69,4 +69,3 @@ function serviceControl($cmd, $name) {
 	return "$result"; // Hier kann man Text angeben, der dem user angezeigt wird.
 }
 
-?>

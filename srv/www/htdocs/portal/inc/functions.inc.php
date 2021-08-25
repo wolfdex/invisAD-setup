@@ -154,6 +154,3 @@ function absent($corusername) {
     fclose($fh);
 }
 
-
-
-?>

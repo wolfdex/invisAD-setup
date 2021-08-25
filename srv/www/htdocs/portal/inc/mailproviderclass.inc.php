@@ -57,4 +57,3 @@ class mailprovider {
 		echo "Verbindung zum LDAP Server nicht möglich!";
 	}}
 }
-?>

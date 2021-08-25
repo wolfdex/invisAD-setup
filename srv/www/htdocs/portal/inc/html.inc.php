@@ -173,4 +173,4 @@ function close_form(){
 	echo ("</form>");
 }
 
-?>
+

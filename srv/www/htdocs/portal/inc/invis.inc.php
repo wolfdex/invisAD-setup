@@ -51,5 +51,5 @@ class InvisConfig {
 		return $this -> dom -> documentElement -> getAttribute("onload");
 	}
 }
-?>
+
 
