@@ -223,4 +223,3 @@ echo "<div style=\"display: none;\"><input id=\"user_pw_min_length\" type=\"hidd
 echo '<div style="display: none;">Icon-pack: <a href="http://iconeden.com/icon/milky-a-free-vector-iconset.html">Milky</a></div>';
 echo "</body></html>";
 
-?>
