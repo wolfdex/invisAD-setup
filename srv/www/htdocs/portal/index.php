@@ -150,7 +150,7 @@ echo <<<HEAD
 		</div>
 HEAD;
 
-echo "<div id='menu'>";
+echo "<nav class='inivs-mainmenunav' id='mainmenunav'></nav><div class='inivs-mainmenudiv' id='menu'>";
 echo '<b style="font-size: 0.6em;color: #ff3300;padding-top: 6px;position: relative; left: -137px;">Server: ' . $FQDN . '</b>';
 
 $count = 0;
@@ -175,7 +175,7 @@ foreach ($CONF -> sections as $section) {
 	}
 	$count++;
 }
-echo "</div></div></div>";
+echo "</div></nav></div></div>";
 
 // section content container
 echo "<div id='content-container'>";
