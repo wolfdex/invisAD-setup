@@ -694,4 +694,3 @@ class adLDAPGroups {
         return $r;
     }
 }
-?>

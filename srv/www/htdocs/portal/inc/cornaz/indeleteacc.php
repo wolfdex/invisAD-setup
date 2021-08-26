@@ -56,5 +56,3 @@ foreach ($entries as $val) {
 	close_form();
 	site_back();
 }
-
-?>

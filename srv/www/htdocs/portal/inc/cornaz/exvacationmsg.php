@@ -39,5 +39,3 @@ fputs ($fp, "$inhalt");
 fclose($fp);
 
 sudocmd('holiday');
-
-?>

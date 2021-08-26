@@ -20,5 +20,3 @@ if ($status == "Urlaub") {
 	site_info($margin, $info);
 	site_back();
 }
-
-?>

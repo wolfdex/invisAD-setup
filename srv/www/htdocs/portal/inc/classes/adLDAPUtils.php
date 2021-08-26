@@ -261,5 +261,3 @@ class adLDAPUtils {
       return $unixTime; 
     }
 }
-
-?>

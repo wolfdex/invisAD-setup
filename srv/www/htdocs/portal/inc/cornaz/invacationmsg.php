@@ -56,4 +56,3 @@ if ($status == "Abwesend") {
 	close_form();
 	site_back();
 }
-?>
