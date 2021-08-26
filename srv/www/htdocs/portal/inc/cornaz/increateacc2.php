@@ -78,4 +78,3 @@ submit_row($val);
 #Formular schliessen
 close_form();
 site_back();
-?>
