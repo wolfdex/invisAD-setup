@@ -43,4 +43,4 @@ class adLDAPComputerCollection extends adLDAPCollection
 
     }
 }
-?>
+
