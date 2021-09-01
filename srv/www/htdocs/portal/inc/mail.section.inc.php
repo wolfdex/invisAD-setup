@@ -39,8 +39,6 @@ if ($result) {
 	error_log("Unauthorized access: User \"" . $data['uid'] . "\" has no cookie set (1, ../login.php).");
     } else {
 		// pull JSON object from cookie
-		if(! isset($CVE20207070))
-		    $CVE20207070 = false;
 		if ( $CVE20207070 == true ) {
 			$data = json_decode(urldecode($_COOKIE['invis']), true);
 		} else {
@@ -94,4 +92,3 @@ if ($result) {
 	echo ldap_error($conn);
     }
 unbind($conn);
-
