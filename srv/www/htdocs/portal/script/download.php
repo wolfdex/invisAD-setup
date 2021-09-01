@@ -14,9 +14,6 @@ require_once('../default/default-config.php');
 require_once('../config.php');
 require_once('MIME/Type.php');
 
-if(! isset($CVE20207070))
-  $CVE20207070=false;
-
 if (isset($_COOKIE['invis']))
 
 	if ( $CVE20207070 == true ) {

@@ -170,8 +170,6 @@ function linksModResponse(request) {
 	echo '</ul>';
 	
 	// user specific links
-if(! isset($CVE20207070))
-    $CVE20207070=false;
 
 	if (isset($_COOKIE['invis'])) {
 	    if ( $CVE20207070 == true ) {

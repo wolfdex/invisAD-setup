@@ -34,9 +34,6 @@ if (isset($_GET['c'])) {
 // COOKIE STUFF
 //--------------------
 
-if(! isset($CVE20207070))
-  $CVE20207070=false;
-
 if (isset($_COOKIE['invis']))
 	if ( $CVE20207070 == true ) {
 	    $cookie_auth = json_decode(urldecode($_COOKIE['invis']), true);
